@@ -12,17 +12,9 @@ Why Use Autoprefixer?
 
 Since different browsers tend to use different vendor prefixes, making sure your CSS is compatible across different browsers can get messy quickly. Autoprefixer streamlines writing CSS by automatically adding vendor prefixes! For example, this allows you to simply write:
 
-.navigation {
-display: flex
-}
 
 Autoprefixer will then take the above code and produce this in the compiled CSS:
 
-.navigation {
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex
-}
 -----------------------------------------------------------------------------------------
 Gulp comes with an automatic trigger called watch something like nodemon
 (Watch)
